@@ -330,11 +330,11 @@
 
         <!-- customer lib -->
 
-        <dependency>
+       <!-- <dependency>
             <groupId>com.nextyu.utils</groupId>
             <artifactId>utils</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
 
 
     </dependencies>

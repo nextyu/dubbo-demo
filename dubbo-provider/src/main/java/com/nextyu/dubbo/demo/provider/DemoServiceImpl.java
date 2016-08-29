@@ -1,5 +1,6 @@
 package com.nextyu.dubbo.demo.provider;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.nextyu.dubbo.demo.service.DemoService;
 
 /**
@@ -7,6 +8,7 @@ import com.nextyu.dubbo.demo.service.DemoService;
  *
  * @author smile
  */
+@Service
 public class DemoServiceImpl implements DemoService {
     public String sayHello(String hello) {
         return "Hello " + hello;
